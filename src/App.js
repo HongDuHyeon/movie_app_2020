@@ -7,7 +7,6 @@ class App extends React.Component{
     movie: [],
   };
   getMovies = async () => {
-    
     const {
       data: {
         data:{movies},
